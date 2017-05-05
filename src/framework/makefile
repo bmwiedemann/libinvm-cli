@@ -46,7 +46,7 @@ EXTERNAL_HEADERS = CliFrameworkTypes.h CommandSpec.h DuplicateTokenErrorResult.h
 	NoInputErrorResult.h NotImplementedErrorResult.h \
 	ObjectListResult.h Parser.h PropertyListResult.h ResultBase.h \
 	SimpleListResult.h SimpleResult.h SyntaxErrorBadValueResult.h SyntaxErrorMissingValueResult.h \
-	SyntaxErrorUnexpectedValueResult.h SyntaxErrorResult.h Trace.h
+	SyntaxErrorUnexpectedValueResult.h SyntaxErrorResult.h Trace.h OutputOptions.h OutputOptionsValidator.h
 	 
 OBJS = $(patsubst %.cpp,%.o,$(SRC))
 #add the resource file on windows
