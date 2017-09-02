@@ -38,7 +38,7 @@ OBJECT_MODULE_DIR = $(OBJECT_DIR)/framework
 UNITTEST = unittest
 
 # ---- FILES ---------------------------------------------------------------------------------------
-SRC = $(wildcard *.cpp)
+SRC = $(sort $(wildcard *.cpp))
 HEADERS = $(wildcard *.h)
 
 EXTERNAL_HEADERS = CliFrameworkTypes.h CommandSpec.h DuplicateTokenErrorResult.h \
